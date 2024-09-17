@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:10px 0px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.title h1 {
+    font-weight: 500px;
+    font-size: 50px;
+}
+
+body {
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ttokg {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: beige;
+}
+
+.ttokg h3 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+#mytextttokg {
+    padding:10px 10px;
+}
+
+.ttokg button {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.ttokg p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.kgtog {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: beige;
+}
+
+.kgtog h3 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+#mytextkgtog {
+    padding:10px 10px;
+}
+
+.kgtog button {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.kgtog p {
+    padding: 10px;
+    font-size: 20px;
+}
